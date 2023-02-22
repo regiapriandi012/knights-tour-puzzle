@@ -30,7 +30,6 @@ class Matrices:
             if len(self.matrices) > int(row) + (i[0]) - 1 >= 0 \
                     and len(self.matrices) > \
                     int(col) + (i[1]) - 1 >= 0:
-                print(i[0], i[1])
                 self.matrices[int(row) + (i[0]) - 1][int(col) + (i[1]) - 1] = \
                     (" " * (len(str(self.ukuran_col *
                                     self.ukuran_row)) - 1) + "0")
